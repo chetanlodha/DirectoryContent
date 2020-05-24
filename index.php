@@ -13,7 +13,7 @@
             <?php
             $dir = getcwd();
             $dh = opendir($dir);
-            $skip = array("dummy",".","..",".git","index.php","styles.css","placeholder-audio.svg","placeholder-document.svg");
+            $skip = array("dummy",".","..",".git");
             $images = array("dummy","png","jpg","gif");
             $videos = array("dummy","mp4","mkv","hevc");
             $audio = array("dummy","mp3","m4a","flac");
